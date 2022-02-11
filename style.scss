@@ -118,6 +118,7 @@ top: 85px;
 .contetnt-body {
     width: 85%;
     background-color: #fff;
+    height: 100%;
     margin-left: auto;
     
     .content{
@@ -131,6 +132,21 @@ top: 85px;
             line-height: 30px;
 
         }
+    }
+}
+
+.tab-pen{
+    display: none;
+    padding: 15px;
+    width: 500px;
+    margin: 100px auto;
+    box-shadow: 0 0 20px rgba(211, 187, 187, 0.726);
+    h1{
+        
+    }
+
+    &.active{
+        display: block;
     }
 }
 

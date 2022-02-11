@@ -28,3 +28,27 @@ dropdwonMenu.forEach((menu)=>{
 
 })
 
+
+
+// tab section 
+
+const menu_tab = document.querySelectorAll(".left-body .lest-body-menu ul li a")
+const tab = document.querySelectorAll(".tab-pen")
+
+menu_tab.forEach(item => {
+    item.addEventListener("click", function(){
+
+        tab.forEach((data)=>{
+            data.classList.remove("active")
+
+        })
+    let datafile = document.querySelector(this.getAttribute('href'))
+    datafile.classList.add("active")
+
+    console.log(datafile);
+
+
+
+    })
+    
+});

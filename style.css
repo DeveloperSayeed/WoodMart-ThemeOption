@@ -123,6 +123,7 @@ header .header .logo img {
 .contetnt-body {
   width: 85%;
   background-color: #fff;
+  height: 100%;
   margin-left: auto;
 }
 
@@ -138,5 +139,18 @@ header .header .logo img {
 .contetnt-body .content p {
   font-size: 18px;
   line-height: 30px;
+}
+
+.tab-pen {
+  display: none;
+  padding: 15px;
+  width: 500px;
+  margin: 100px auto;
+  -webkit-box-shadow: 0 0 20px rgba(211, 187, 187, 0.726);
+          box-shadow: 0 0 20px rgba(211, 187, 187, 0.726);
+}
+
+.tab-pen.active {
+  display: block;
 }
 /*# sourceMappingURL=style.css.map */
